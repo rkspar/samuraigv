@@ -1,0 +1,227 @@
+html { background: #000 url(../images/WEB_Benihana_Samurai.jpg) no-repeat scroll center top; }
+
+#Container {
+	width: 960px;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+	z-index: 1;
+	margin: 0px auto;
+}
+
+#Header {
+	overflow: visible;
+	position: relative;
+	width: 100%;
+	height: 220px;
+	margin-bottom: 24px;
+}
+
+#Logo {
+	position: absolute;
+	z-index: 1;
+	left: 365px;
+	top: 15px;
+}
+
+#Menu {
+	position: absolute;
+	z-index: 1;
+	bottom: 0px;
+	padding-left: 40px;
+	padding-left: 54px\9;
+ *padding-left: 64px;
+	margin-top:10px;
+	margin-bottom:4px;
+}
+
+.wrap {
+	position: relative;
+	z-index: 1;
+	overflow: visible;
+	margin-bottom: 24px;
+}
+
+#Footer {
+	position: relative;
+	bottom: 0px;
+	z-index: 1;
+	width: 900px;
+	margin: 0px auto;
+}
+
+#sideBar {
+	float: left;
+	width: 350px;
+}
+
+#wraper-Right {
+	width: 535px;
+	float: right;
+}
+#wraper-Form {
+	width: 535px;
+	float: right;
+}
+.clear{ clear: both; }
+
+/*============================*/
+/*=== Custom Slider Styles ===*/
+/*============================*/
+#slider {
+	position:relative;
+	width:820px;
+	height:336px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+	margin: 0px auto;
+}
+
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:260px;
+	bottom:-42px;
+}
+
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+
+#times {
+	padding: 24px;
+	float: left;
+	width: 302px;
+}
+
+.nivo-controlNav a.active { background-position:0 -22px; }
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+
+a.nivo-prevNav { left:15px; }
+
+.nivo-caption {
+	text-shadow:none;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.nivo-caption a {
+	color:#efe9d1;
+	text-decoration:underline;
+}
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+#wraper-Right checkbox{ clear:both; }
+
+.content {
+	background: #ffffff; /* old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e5e5e5)); /* webkit */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0 ); /* ie */
+	overflow: visible;
+	position: relative;
+	padding-top: 30px;
+	padding-right: 24px;
+	padding-bottom: 24px;
+	padding-left: 24px;
+}
+
+.menu-img {
+	float: right;
+	margin-left: 24px;
+	-webkit-box-shadow: 2px 2px 6px #454545;
+	-moz-box-shadow: 2px 2px 6px #454545;
+	box-shadow: 2px 2px 6px #454545;
+}
+
+#map {
+	float:right;
+	margin-bottom:24px;
+}
+
+#location {
+	float: left;
+	width: 350px;
+}
+
+#address {
+	float: left;
+	width: 302px;
+	background-color: #780505;
+	padding-top: 24px;
+	padding-right: 24px;
+	padding-left: 24px;
+}
+
+#directions {
+	float:right;
+	width:535px;
+}
+
+/*#kabuki {
+	float: left;
+	width: 302px;
+	padding-top: 24px;
+	padding-right: 24px;
+	padding-left: 24px;
+}
+
+#KK-form, #GiftCard-form {
+	width: 535px;
+	float: right;
+	overflow: hidden;
+}
+
+#KK-form td, #GiftCard-form td { padding: 4px; }
+
+#KK-form label { display: block; }*/
+
+.required { color: #F00; }
+
+/*====================*/
+/*=== Froms ===*/
+/*====================*/
+
+#wraper-Right input, textarea, #State {
+	display: block;
+	margin-bottom:1em;
+}
+
+#wraper-Right label { display: block; }
+
+#kklogo { margin-bottom: 24px; }
+
+#wraper-Right checkbox{
+	margin: 0px;
+	padding: 0px;
+}
